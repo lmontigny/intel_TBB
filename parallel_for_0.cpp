@@ -1,5 +1,7 @@
 // g++ -std=c++11 tbb_example.cpp -ltbb && ./a.out
 
+// tbb::parallel_for( range, kernel );
+
 #include "tbb/parallel_for.h"
 #include "tbb/task_scheduler_init.h"
 #include <iostream>
